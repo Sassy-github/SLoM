@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/HintOfRed"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_padding"
+        android:background="@color/Maincolor_L"
+        android:gravity="center"
+        android:padding="@dimen/layout_padding"
+        android:text="@string/s_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/setting_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_padding"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/range"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content" />
+
+            <TextView
+                android:id="@+id/bar_text"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/bar_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/bar_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_padding"
+            android:max="1000"
+            android:progress="500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_padding"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/locations"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content" />
+
+            <Spinner
+                android:id="@+id/spn_loc"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_padding">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/btn_padding"
+                android:layout_weight="1"
+                android:text="@string/btn_cancel"
+                android:textSize="@dimen/content" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_padding"
+                android:layout_weight="1"
+                android:text="@string/btn_ok"
+                android:textSize="@dimen/content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

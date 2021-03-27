@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_ico">photo</string>
+    <string name="descr">景點照片</string>
+    <string name="settings">設定</string>
+    <string name="s_title">設定</string>
+    <string name="range">搜尋範圍：</string>
+    <string name="locations">搜尋設施：</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">確定</string>
+    <string name="default_type">全部設施</string>
+    <string name="noGPS">GPS定位失敗</string>
+    <string name="findNearLocation">搜尋附近設施</string>
+    <string name="bar_text">500m</string>
+    <string name="c_findNearLocation">取消搜尋</string>
+    <string name="noLoc">附近無設施，請重新設定搜尋條件</string>
+    <string name="GPSnoStart">GPS定位權限未允許</string>
+    <string name="noKey">忘記放金鑰啦!!</string>
+
+    <string-array name="map_locText">
+        <item>餐廳</item>
+        <item>咖啡廳</item>
+        <item>超市</item>
+        <item>書局</item>
+        <item>公園</item>
+        <item>停車場</item>
+        <item>旅館</item>
+        <item>提款機</item>
+        <item>公車站</item>
+        <item>加油站</item>
+        <item>醫院</item>
+        <item>警局</item>
+    </string-array>
+
+    <string-array name="map_locValue">
+        <item>restaurant</item>
+        <item>cafe</item>
+        <item>supermarket</item>
+        <item>book_store</item>
+        <item>park</item>
+        <item>parking</item>
+        <item>lodging</item>
+        <item>atm</item>
+        <item>bus_station</item>
+        <item>gas_station</item>
+        <item>hospital</item>
+        <item>police</item>
+    </string-array>
+</resources>

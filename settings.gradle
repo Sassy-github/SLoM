@@ -1,0 +1,3 @@
+include ':SLM_myLocation_K'
+include ':SLM_myLocation'
+rootProject.name = "SLoM"
